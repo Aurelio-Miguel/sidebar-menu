@@ -1,0 +1,12 @@
+.logo-img {
+    width: 38px;
+    min-height: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.4s;
+    margin-left: 10px;
+}
+
+.logo-img:hover {
+    transform: scale(1.5);
+}

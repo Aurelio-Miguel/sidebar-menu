@@ -1,0 +1,41 @@
+.NavButton {
+    height: 60px;
+    background: transparent;
+    border: 0;
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+    text-align: left;
+    padding: 0;
+}
+
+.NavButton>span {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    height: 48px;
+    padding: 0 16px 0 12px;
+    border-radius: 24px;
+    line-height: 1;
+    transition: all 0.2s;
+}
+
+.NavButton:hover>span {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.NavButton i {
+    position: relative;
+    font-size: 28px;
+    transition: 0.2s;
+}
+
+.NavButton span {
+    font-size: 16px;
+}
+
+@media (width < 920) {
+    .NavButton>span {
+        width: 50px;
+    }
+}
